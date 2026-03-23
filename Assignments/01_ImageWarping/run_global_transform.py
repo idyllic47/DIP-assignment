@@ -18,8 +18,6 @@ def apply_transform(image, scale, rotation, translation_x, translation_y, flip_h
     image = np.array(image_new)
     transformed_image = np.array(image)
 
-    ### FILL: Apply Composition Transform 
-    # Note: for scale and rotation, implement them around the center of the image （围绕图像中心进行放缩和旋转）
     h, w = image.shape[:2]
     center = (w / 2.0, h / 2.0)
 

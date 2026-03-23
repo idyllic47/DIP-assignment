@@ -48,7 +48,7 @@ def point_guided_deformation(image, source_pts, target_pts, alpha=1.0, eps=1e-8)
     """
 
     warped_image = np.array(image)
-    ### FILL: Implement MLS or RBF based image warping
+
     if image is None:
         return warped_image
 
