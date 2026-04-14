@@ -14,9 +14,9 @@ python run_blending_gradio.py
 ```
 
 ## Results 
-<img src="pics/process.png" alt="alt text" width="800">
+<img src="pic/process.png" alt="alt text" width="800">
 
-<img src="pics/output.webp" alt="alt text" width="800">
+<img src="pic/output.webp" alt="alt text" width="800">
 
 ---
 
@@ -33,16 +33,16 @@ The code will train the model on the [Cityscapes Dataset](http://efrosgans.eecs.
 ## Results 
 The results are in train_results and val_results. Here are the visualization of comparison.
 epoch = 0
-<img src="Pix2pix/visualization/epoch_0_comparison.png" alt="alt text" width="800">
+<img src="Pix2Pix/visualization/epoch_0_comparison.png" alt="alt text" width="800">
 
 epoch = 150
-<img src="Pix2pix/visualization/epoch_150_comparison.png" alt="alt text" width="800">
+<img src="Pix2Pix/visualization/epoch_150_comparison.png" alt="alt text" width="800">
 
 epoch = 295
-<img src="Pix2pix/visualization/epoch_295_comparison.png" alt="alt text" width="800">
+<img src="Pix2Pix/visualization/epoch_295_comparison.png" alt="alt text" width="800">
 
 The gif
-<img src="Pix2pix/visualization/training_progress.gif" alt="alt text" width="800">
+<img src="Pix2Pix/visualization/training_progress.gif" alt="alt text" width="800">
 
 ---
 
