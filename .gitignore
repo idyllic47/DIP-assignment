@@ -1,1 +1,7 @@
 model.py
+
+# Local secrets
+.env
+*.env
+.env.*
+!.env.example
