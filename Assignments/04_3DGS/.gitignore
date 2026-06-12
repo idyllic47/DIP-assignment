@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Local environments and build artifacts
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Third-party source trees used only for local installation/comparison
+pytorch3d-0.7.9/
+gaussian-splatting-main/
+
+# COLMAP/generated reconstruction outputs
+data/*/database.db
+data/*/sparse/
+data/*/projections/
+
+# Training/debug outputs
+data/*/checkpoints/
+data/*/checkpoints*/
+data/*/benchmark_tmp/
+data/*/official_3dgs_output*/
+data/*/render_*.mp4
+data/*/*benchmark*.json
+data/*/official_3dgs_*.json
+data/*/official_3dgs_*.txt
+data/*/official_3dgs_*.csv
+
+# Model/output files
+*.pt
+*.pth
+*.ply
+*.mp4
+
+# Report media submitted with the markdown report
+!report_assets/
+!report_assets/*.mp4
